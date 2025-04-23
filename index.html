@@ -1,43 +1,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Bio</title>
+  <title>Thomas Bikias – Portfolio</title>
   <style>
     body {
-      font-family: Arial;
-      background: #f4f4f4;
-      padding: 2em;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
     }
-    .card {
-      background: white;
-      max-width: 600px;
+    header {
+      background: #222;
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+    img.profile {
+      width: 140px;
+      border-radius: 50%;
+      margin-bottom: 1em;
+    }
+    .container {
+      max-width: 800px;
       margin: auto;
       padding: 2em;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background: white;
     }
-    .card img {
-      width: 120px;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto 1em;
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.3em;
+      margin-top: 2em;
     }
-    .card h1 {
-      text-align: center;
-      margin-bottom: 0.5em;
+    ul {
+      list-style: none;
+      padding: 0;
     }
-    .card p {
-      text-align: center;
-      color: #666;
+    li {
+      margin-bottom: 0.8em;
+    }
+    .article {
+      background: #f0f0f0;
+      padding: 1em;
+      margin-top: 1em;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <img src="your-photo.jpg" alt="Your Name">
-    <h1>Your Name</h1>
-    <p>Web Developer | Designer | Coffee Enthusiast</p>
-    <p>Welcome to my page! I'm passionate about building beautiful and functional websites.</p>
+
+  <header>
+    <img src="your-photo.jpg" alt="Thomas Bikias" class="profile">
+    <h1>Thomas Bikias</h1>
+    <p>Researcher • Engineer • Explorer of Biological Intelligence</p>
+  </header>
+
+  <div class="container">
+    <h2>Professional Experience</h2>
+    <ul>
+      <li><strong>Scientist</strong> – BIIE-DeepIR (2022–present)<br>Working on biologically inspired inference and generative models.</li>
+      <li><strong>Research Engineer</strong> – XYZ Labs (2019–2022)<br>Developed deep learning tools for sequence modeling and protein design.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Ph.D. in Computational Biology</strong> – University of Bioinformatics (2015–2019)</li>
+      <li><strong>B.Sc. in Biotechnology</strong> – Tech University (2011–2015)</li>
+    </ul>
+
+    <h2>Publications</h2>
+    <ul>
+      <li>“Generative Transformers for Protein Engineering” – *Nature Biotech*, 2024</li>
+      <li>“Self-supervised Models in Genomics” – *ICLR*, 2023</li>
+    </ul>
+
+    <h2>Featured Articles</h2>
+    <div class="article">
+      <h3><a href="#">AI Meets Biology: A New Frontier</a></h3>
+      <p>Exploring how transformer models are changing how we understand proteins and genomes.</p>
+    </div>
+    <div class="article">
+      <h3><a href="#">My Journey Into Generative Biology</a></h3>
+      <p>A personal essay on research, challenges, and where the field is heading next.</p>
+    </div>
   </div>
+
 </body>
 </html>
